@@ -1,0 +1,102 @@
+@media (min-width: 1200px) {
+  div.responsive-digi {
+    width: 80%;
+    background-color: orange;
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  div.responsive-digi > div.item {
+    width: 15%;
+    text-align: center;
+  }
+  div.responsive-digi > div.item > img {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  div.responsive-digi {
+    width: 80%;
+    background-color: orange;
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  div.responsive-digi > div.item {
+    width: 15%;
+    text-align: center;
+  }
+  div.responsive-digi > div.item > img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  div.responsive-digi {
+    width: 80%;
+    background-color: orange;
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  div.responsive-digi > div.item {
+    width: 30%;
+    text-align: center;
+  }
+  div.responsive-digi > div.item > img {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  div.responsive-digi {
+    width: 80%;
+    background-color: orange;
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  div.responsive-digi > div.item {
+    width: 50%;
+    text-align: center;
+  }
+  div.responsive-digi > div.item > img {
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  div.responsive-digi {
+    width: 80%;
+    background-color: orange;
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  div.responsive-digi > div.item {
+    width: 100%;
+    text-align: center;
+  }
+  div.responsive-digi > div.item > img {
+    width: 70%;
+  }
+  p{
+    font-size: 12px;
+  }
+}
+
+
+/*حالا هر کدام از این سایز ها را در یک فایل قرار میدهیم*/

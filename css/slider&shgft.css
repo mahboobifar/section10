@@ -1,0 +1,88 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px 0;
+  background-color: aqua; */
+  /* این دستورات را میتوان همینجا نوشت یا اینکه میتوان یک کلاس دیگر تهریف کرد به نام پروداکت و در آنجا نوشت*/
+  /*بهتر است یک کلاس دیگر به اسم پروداکت مشخص کنیم چون این کلاس سوییپر اسلاید بین دیو شگفت و دیو اسلایدر مشترک بود و مشترک استفاده شد*/
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section.shgft {
+  width: 80%;
+  margin: 150px auto;
+  background-color: #ef3a4f;
+  padding: 30px;
+  border-radius: 25px;
+  direction: rtl;
+}
+section.shgft div.content {
+  direction: ltr;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: #3f4064;
+}
+section.shgft div.content div.price {
+  display: flex;
+}
+section.shgft div.content div.price h4 {
+  font-family: irann;
+}
+section.shgft div.content span {
+  font-family: irannb;
+  background-color: red;
+  padding: 3px 6px;
+  border-radius: 25px;
+  color: white;
+}
+section.shgft div.content div.price img {
+  width: 20px;
+  height: 20px;
+}
+section.shgft h5 {
+  color: #c6c6d0;
+  font-family: irann;
+  text-decoration: line-through 2px;
+}
+div.product {
+  padding: 20px 0;
+  /* background-color: aqua; */
+}
+div.product > img {
+  padding: 20px;
+}
+div.logo {
+  background-color: rgba(0, 255, 255, 0); /*ترنسپرنس رو 0 کردیم*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+div.logo > img {
+  width: 50%;
+}
+div.logo > a {
+  text-decoration: none;
+  color: white;
+}
+.first {
+  border-radius: 0 15px 15px 0;
+}
+.last {
+  border-radius: 15px 0 0 15px;
+}
